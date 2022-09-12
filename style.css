@@ -264,3 +264,24 @@ margin: 10px 0;
 img{
 	width: 100%;
 }
+.product{
+	text-align: center;
+}
+
+
+.shop{
+	color: white;
+	width:150px;
+	height: 30px;
+	font-size:16px;
+	border: 2px solid orangered;
+	border-color: orangered;
+	border-radius: 5px;
+	font-color:orangered;
+	background-color: orangered;
+	padding: 1px;
+}
+.shop:hover{
+	background-color: transparent;
+	color: orangered;
+}
