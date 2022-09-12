@@ -255,15 +255,14 @@ margin: 10px 0;
     border-top: 40px solid #FF4E00;
     border-right:40px solid transparent;
     position: relative;
-    left: 3px;
+    left: 1px;
     top: 33px;
 } 
 .row{
 	margin-top: 30px;
 }
-img{
-	width: 100%;
-}
+img { width:100%}
+
 .product{
 	text-align: center;
 }
