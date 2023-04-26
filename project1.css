@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 80%;
+    height: 10%;
+    margin: 70px auto;
+    position: relative;
+    
+}
+.container1{
+    width: 30%;
+    height: 100px;
+    padding-top: 10px;
+}
+
+.taskg{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.taskh{
+    font-size: 30px;
+    opacity: 0.5;
+    margin-left: 10px;
+}
+
+.container2{
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 10px;
+}
+.listadd{
+    font-size: 30px;
+    opacity: 0.5;
+   
+}
+/*This is a card section */
+
+.card-container{
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap:wrap
+}
+
+.cards{
+    width: 200px;
+    height: 250px;
+    border: 0.5px solid red ;
+    border-radius: 5px;
+    position: relative;
+    margin-top: 10px;
+    box-shadow: 5px 5px 10px grey;
+    
+}
+
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    font-size: 25px;
+    text-align: left;
+    color: darkred;
+    width: 80%;
+    height: 30px;
+    border-bottom: 2px solid grey;
+
+}
+
+.div2{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top:35%;
+    text-align: right;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: line-through 3px darkred;
+}
+
+.div3{
+    width: 90%;
+    height: 10%;
+    position: absolute;
+    top: 60%;
+    text-align: left;
+    font-size: 20px;
+}
+
+#check{
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+}
+
+.not-show{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+/* This is mobile view section*/
+
+@media screen and (min-width:0px) and (max-width:769px) {
+
+    
+    
+
+    .container1{
+        width: 80%;
+        height: 100%;
+
+    }
+
+    .container2{
+        width: 10%;
+        right: 0px;
+    }
+
+    #circle-plus{
+        right: 0px;
+    }
+
+    .listadd{
+        display: none;
+         
+    }
+    
+    .cards{
+        margin-top: 20px;      
+        height: 90px;
+        width:80%;
+        
+    }
+        
+    .div1{
+        font-size: 2rem;
+        border: none;
+    }
+
+    .div2{
+        display: none;
+
+    }
+    .div3{
+        display: none;
+    }
+}
+
+
+
+
